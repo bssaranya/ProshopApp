@@ -205,6 +205,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 import os
+from dotenv import load_dotenv
+
 
 # Load environment variables from .env file
 load_dotenv()
